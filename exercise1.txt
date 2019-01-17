@@ -1,0 +1,8 @@
+mkdir exercises
+cd exercises
+git init
+echo "# exercises" >> README.md
+git add README.md
+git commit -m "This is the readme"
+git remote add origin https://github.com/spomlol/exercises.git
+git push -u origin master
